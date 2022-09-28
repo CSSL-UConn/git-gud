@@ -89,7 +89,7 @@ $ git clone [-b <branch>] <remote-repo-url> [directory-name]
 
 Get introduces the concept of branches in order to manage different people working on different features. This section explains how git branching works. For a more in detail discussion on branching, check Chapter 3 of the [Git Book](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
 
-We strongly advise that development is done in branches that are separate from the `main` branch of the repo (to avoid 
+We strongly advise that development is done in branches that are separate from the `main` branch of the repo (to avoid conflicting with other dvelopers and to keep `main` as single source of truth in the project)
 
 ##### Creating a branch
 
